@@ -22,4 +22,4 @@ jobs:
           aws-region: ap-northeast-2
 
       - name: sync
-        run: aws s3 sync . s3://greenlabs-data-mwaa
+        run: aws s3 sync . s3://greenlabs-data-mwaa --exclude ".*" --exclude "dags/.*"
