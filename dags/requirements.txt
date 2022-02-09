@@ -1,0 +1,15 @@
+--constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.0.2/constraints-3.7.txt"
+-- elasticsearch
+-- swifter
+-- tqdm
+-- parmap
+-- konlpy
+-- kss
+-- requests-aws4auth
+-- scipy
+-- scikit-learn
+-- PyMySQL
+-- awswrangler
+-- redshift-connector
+-- pyarrow
+-- pyathena
